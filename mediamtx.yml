@@ -295,7 +295,7 @@ rtmp: true
 # Available values are "no", "strict", "optional".
 rtmpEncryption: "no"
 # Address of the TCP/RTMP listener. This is needed only when encryption is "no" or "optional".
-rtmpAddress: :8888
+rtmpAddress: :1935
 # Address of the TCP/RTMPS listener. This is needed only when encryption is "strict" or "optional".
 rtmpsAddress: :1936
 # Path to the server key. This is needed only when encryption is "strict" or "optional".
